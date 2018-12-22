@@ -1,3 +1,14 @@
+# App Specification
+
+* Database Tables
+
+| ID(rails 
+|   generated)  | Title         | Description  | User_id|
+| ------------- |:-------------:| -----:       | ------:|
+| 1             | great weather | great weather|        |
+|               |               | outside today|        |
+
+
 
 # Important Notes
 
