@@ -2,7 +2,7 @@
 
 * Database Tables
 
-| ID(rails 
+| ID(rails      |               |              |        |
 |   generated)  | Title         | Description  | User_id|
 | ------------- |:-------------:| -----:       | ------:|
 | 1             | great weather | great weather|        |
