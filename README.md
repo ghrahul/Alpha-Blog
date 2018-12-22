@@ -2,7 +2,9 @@
 
 * Database Tables
 
-Columns : ID(rails generated), Title, Description, User_id
+  Columns : ID(rails generated), Title, Description, User_id
+  
+* CRUD Operation : create, read, update, delete
 
 
 
@@ -25,5 +27,12 @@ Columns : ID(rails generated), Title, Description, User_id
 * action means method in controller class.
 * for each action we need template in views.
 * <% %> for writing ruby code inside template.
-* <%= this is going to render what is evaluated
+* <%= this is going to render what is evaluated.
+* Rails use active record pattern to communicate with database.
+* "rails generate scaffold Article title:string description:text" will create table named Article and corresponding controller and model routes and all other things which are required.
+* "rake db:migrate" for migrating database.
+* "rake route | grep articles" to see all the routes for articles.
+* "CRUD" operation comes inbuilt!!!
+* 
+
 
