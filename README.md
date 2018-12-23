@@ -10,10 +10,10 @@
  
 * Naming Convention:
   
-  Model - Singular first letter Uppercase(Article)
-  Tablename - Plural, lower case of model name(articles)
-  Model name file - all lowercase but singular(article.rb)
-  Controller_name - Plural of model(articles_controller.rb)
+  * Model - Singular first letter Uppercase(Article)
+  * Tablename - Plural, lower case of model name(articles)
+  * Model name file - all lowercase but singular(article.rb)
+  * Controller_name - Plural of model(articles_controller.rb)
 
 
 
@@ -43,6 +43,7 @@
 * "rake route | grep articles" to see all the routes for articles.
 * "CRUD" operation comes inbuilt!!!
 * "rails generate migration create_articles" to generate a migration.
+* Model.create(args) for direct entry of values.
 * 
 
 
