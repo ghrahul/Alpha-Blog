@@ -7,7 +7,7 @@
     Columns : ID(rails generated), username, email
   
 * CRUD Operation : create, read, update, delete
-
+ 
 * Naming Convention:
   
   Model - Singular first letter Uppercase(Article)
@@ -42,6 +42,7 @@
 * "rake db:migrate" for migrating database.
 * "rake route | grep articles" to see all the routes for articles.
 * "CRUD" operation comes inbuilt!!!
+* "rails generate migration create_articles" to generate a migration.
 * 
 
 
