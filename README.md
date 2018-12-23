@@ -1,11 +1,19 @@
 # App Specification
 
 * Database Tables
-
-  Columns : ID(rails generated), Title, Description, User_id
+  * Articles
+    Columns : ID(rails generated), Title, Description, User_id
+  * Users
+    Columns : ID(rails generated), username, email
   
 * CRUD Operation : create, read, update, delete
 
+* Naming Convention:
+  
+  Model - Singular first letter Uppercase(Article)
+  Tablename - Plural, lower case of model name(articles)
+  Model name file - all lowercase but singular(article.rb)
+  Controller_name - Plural of model(articles_controller.rb)
 
 
 
