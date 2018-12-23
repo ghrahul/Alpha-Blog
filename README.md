@@ -46,6 +46,4 @@
 * Model.create(args) for direct entry of values.
 * "article.errors.any?" to check if there is any error with article entry.
 * "article.errors.full_messages" to show the full message related to error.
-* 
-
-
+* "application.html.erb" file wraps all the views.
