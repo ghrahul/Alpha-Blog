@@ -1,0 +1,42 @@
+Script started on Sun 23 Dec 2018 06:50:00 AM UTC
+]0;ubuntu@rahughosh-ruby-on-rails-learning-6634302: ~/alpha-blog[01;32mrahughosh[00m:[01;34m~/alpha-blog[00m (master) $ rails console
+Running via Spring preloader in process 2839
+Loading development environment (Rails 4.2.5)
+2.3.4 :001 > Article.all
+  [1m[36mArticle Load (1.8ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+ => #<ActiveRecord::Relation []> 
+2.3.4 :002 > Articlle[K[K[Kle
+ => Article(id: integer, title: string, description: text, created_at: datetime, updated_at: datetime) 
+2.3.4 :003 > 
+[K2.3.4 :003 > Article.newaArticle.newrArticle.newtArticle.newiArticle.newcArticle.newlArticle.neweArticle.new Article.new[1PArticle.new Article.new=Article.new Article.new
+ => #<Article id: nil, title: nil, description: nil, created_at: nil, updated_at: nil> 
+2.3.4 :004 > article.title = ""T"h"i"s" "i"s" "m"y" "f"i"r"s"t" "a"r"t"i"c"l"e"
+ => "This is my first article" 
+2.3.4 :005 > article.de[K[K[K[K[K[K[K[K[K[Karticle
+ => #<Article id: nil, title: "This is my first article", description: nil, created_at: nil, updated_at: nil> 
+2.3.4 :006 > article.description = ""T"h"i"s" "i"s" "t"h"e" "d"e"s"c"r"i"p"t"i"o"n"
+ => "This is the description" 
+2.3.4 :007 > article
+ => #<Article id: nil, title: "This is my first article", description: "This is the description", created_at: nil, updated_at: nil> 
+2.3.4 :008 > article.save
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This is my first article"], ["description", "This is the description"], ["created_at", "2018-12-23 06:54:38.508199"], ["updated_at", "2018-12-23 06:54:38.508199"]]
+  [1m[35m (22.0ms)[0m  commit transaction
+ => true 
+2.3.4 :009 > article
+ => #<Article id: 1, title: "This is my first article", description: "This is the description", created_at: "2018-12-23 06:54:38", updated_at: "2018-12-23 06:54:38"> 
+2.3.4 :010 > article = Article.new()t)i)t)l)e):) ) )[1P)[1P) )")")T")h")i")s") ")i")s") ")m")y") ")s")e")c")o")n")d") ")a")r")t")i")c")l")e")[C,) )d)e)s)c)r)i)p)t)i)o)n):) )")")T")h")i")s") ")i")s") ")s")e")c")o")n")d") ")a")r")t")i")c")l")e") ")d")e")s")c")r")i")p")t")i")o")n")
+ => #<Article id: nil, title: "This is my second article", description: "This is second article description", created_at: nil, updated_at: nil> 
+2.3.4 :011 > article.save
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "This is my second article"], ["description", "This is second article description"], ["created_at", "2018-12-23 06:59:44.796676"], ["updated_at", "2018-12-23 06:59:44.796676"]]
+  [1m[36m (18.0ms)[0m  [1mcommit transaction[0m
+ => true 
+2.3.4 :012 > Article.all
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"
+ => #<ActiveRecord::Relation [#<Article id: 1, title: "This is my first article", description: "This is the description", created_at: "2018-12-23 06:54:38", updated_at: "2018-12-23 06:54:38">, #<Article id: 2, title: "This is my second article", description: "This is second article description", created_at: "2018-12-23 06:59:44", updated_at: "2018-12-23 06:59:44">]> 
+2.3.4 :013 > exit()
+]0;ubuntu@rahughosh-ruby-on-rails-learning-6634302: ~/alpha-blog[01;32mrahughosh[00m:[01;34m~/alpha-blog[00m (master) $ exit
+exit
+
+Script done on Sun 23 Dec 2018 07:01:02 AM UTC
