@@ -48,3 +48,4 @@
 * "article.errors.full_messages" to show the full message related to error.
 * "application.html.erb" file wraps all the views.
 * Partials are used to make code redundent "_form.html.erb"
+* "heroku run rake db:migrate" for migrating databse with heroku.
