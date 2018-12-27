@@ -5,6 +5,7 @@
     Columns : ID(rails generated), Title, Description, User_id
   * Users
     Columns : ID(rails generated), username, email
+  * One-to Many relation with the user and articles.
   
 * CRUD Operation : create, read, update, delete
  
@@ -39,7 +40,9 @@
 * <%= this is going to render what is evaluated.
 * Rails use active record pattern to communicate with database.
 * "rails generate scaffold Article title:string description:text" will create table named Article and corresponding controller and model routes and all other things which are required.
-* "rake db:migrate" for migrating database.
+* "rails generate scaffold Model columns:type model:references" for creating a foreign key reference between models.
+* "rails destroy scaffold Model" to destroy a model.
+* "rake db:migrate" for migrating database by creating tables.
 * "rake route | grep articles" to see all the routes for articles.
 * "CRUD" operation comes inbuilt!!!
 * "rails generate migration create_articles" to generate a migration.
@@ -49,3 +52,5 @@
 * "application.html.erb" file wraps all the views.
 * Partials are used to make code redundent "_form.html.erb"
 * "heroku run rake db:migrate" for migrating databse with heroku.
+* "has_many" should be added in the model which has one to many relation.
+
