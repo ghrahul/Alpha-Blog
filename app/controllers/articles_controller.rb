@@ -15,6 +15,7 @@ class ArticlesController < ApplicationController
   def create
     #render plain: params[:article].inspect #to check what is passing
     @article = Article.new(article_params)
+    @article.user = User.first #hard coded
     if @article.save
       flash[:success] = "Article was successfully created"
       redirect_to article_path(@article)

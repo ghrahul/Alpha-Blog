@@ -55,5 +55,7 @@
 * "has_many" should be added in the model which has one to many relation.
 * Any change is instantly reflected in the Active Record objects. The mapping that binds a given Active Record 
   class to a certain database table will happen automatically in most common cases, but can be overwritten for the uncommon ones.
+* "rails generate migration add_user_id_to_articles" to create association between articles and users
+* "byebug" gem is used for debugging.
 
 
