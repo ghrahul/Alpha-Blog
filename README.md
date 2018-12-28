@@ -53,4 +53,7 @@
 * Partials are used to make code redundent "_form.html.erb"
 * "heroku run rake db:migrate" for migrating databse with heroku.
 * "has_many" should be added in the model which has one to many relation.
+* Any change is instantly reflected in the Active Record objects. The mapping that binds a given Active Record 
+  class to a certain database table will happen automatically in most common cases, but can be overwritten for the uncommon ones.
+
 
