@@ -57,5 +57,11 @@
   class to a certain database table will happen automatically in most common cases, but can be overwritten for the uncommon ones.
 * "rails generate migration add_user_id_to_articles" to create association between articles and users
 * "byebug" gem is used for debugging.
+* "has_secure_password" method in the model user.rb.
+* "gem bcrypt" in the gemfile.
+* password_digest attribute in the users table.
+* One way hashed digest of a string is stored by password_digest.
+* resource.authenticate('password') for comparing password.
+* 
 
 
