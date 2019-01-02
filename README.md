@@ -62,6 +62,7 @@
 * password_digest attribute in the users table.
 * One way hashed digest of a string is stored by password_digest.
 * resource.authenticate('password') for comparing password.
+* Methods that are crreated in application controller are available to all the controllers.Not available in views by default.
 * 
 
 
