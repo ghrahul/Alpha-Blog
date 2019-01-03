@@ -1,5 +1,5 @@
 class User < ActiveRecord::Base
-  has_many :articles
+  has_many :articles, dependent: :destroy
   before_save { self.email = email.downcase } #saving email in downcase while storing
   validates :username, presence: true, length: { minimum: 3, maximum: 25 }, 
              uniqueness: { case_sensitive: false }
