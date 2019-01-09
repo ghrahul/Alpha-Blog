@@ -9,7 +9,7 @@
   * Articles
     Columns : ID(rails generated), Title, Description, User_id
   * Users
-    Columns : ID(rails generated), username, email
+    Columns : ID(rails generated), username, email, admin(T/F)
   *article_categories
     Columns : article_id, category_id
   * One-to Many relation with the user and articles.
