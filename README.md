@@ -1,11 +1,19 @@
 # App Specification
 
+* Model
+  * Article
+  * Category
+  * User
+
 * Database Tables
   * Articles
     Columns : ID(rails generated), Title, Description, User_id
   * Users
     Columns : ID(rails generated), username, email
+  *article_categories
+    Columns : article_id, category_id
   * One-to Many relation with the user and articles.
+  * Many-to-Many relation between article and categories.
   
 * CRUD Operation : create, read, update, delete
  
@@ -65,6 +73,6 @@
 * Methods that are crreated in application controller are available to all the controllers.Not available in views by default.
 * setup method will start first whenever we start testing.
 * "rake test" cmd to start all test cases.
-* 
+
 
 
