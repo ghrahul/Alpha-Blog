@@ -1,5 +1,19 @@
+## [Demo](https://youtu.be/QHKIH9gIxhs)
+
+# What has been used?
+
+  * Rails 4.2.5
+  * ruby 2.3.4p301 
+  * Cloud9 ide
+
+# How to set up?
+
+  * clone the project in a rails workspace in Cloud9
+  * run "rake db:migrate"
+  * Then to run the server type "rails s -b $IP -p $PORT"
+
 # App Specification
-* [Demo](https://youtu.be/QHKIH9gIxhs)
+
 * Model
   * Article
   * Category
