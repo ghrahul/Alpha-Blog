@@ -88,5 +88,5 @@
 * setup method will start first whenever we start testing.
 * "rake test" cmd to start all test cases.
 
-
+[UDEMY COURSE PROJECT](https://github.com/udemyrailscourse/alpha-blog)
 
